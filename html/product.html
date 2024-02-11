@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+		<title>Products - House of Bonsai</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Riddhi Khanal">
+		<meta name="description" content="Product Page of House of Bonsai">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		 <link rel="stylesheet" href="../css/style.css">
+		 <style>
+			
+			#discountLeft, #discountLeft1, #discountLeft2{
+				color: red;
+				padding-bottom: 10px;
+			}
+		 
+		 </style>
+</head>
+<body>
+	<header id="nav_content">
+		<div class="navigation_bar">
+			
+			<div class="top_navbar">
+				<div class="left_container">
+					<li class="img_li">
+						<img
+							src="../images/NEW.png"
+							alt="logo"
+							width="250px"
+							height="222px"
+							class="website_logo"
+						/>
+					</li>
+				</div>
+				<div class="right_container">
+					<div class="top_nav"> 
+
+
+
+
+
+						<ul class="roof_nav">
+							<li class="roof_nav_li">
+								<a href="#" class="roof_nav_links date" id="product_date"></a>
+							</li>
+							<li class="roof_nav_li">
+								<a href="#" class="roof_nav_links">Contact us</a>
+							</li>
+							<li class="roof_nav_li">
+								<a href="#" class="roof_nav_links">Check Our Store Branch</a>
+							</li>
+							<li class="roof_nav_li"> 
+								<a href="#" class="roof_nav_links">Customer Reviews</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="bottom_nav">
+						<ul class="bottom_roof_nav">
+							<li class="search_icon">
+								<button type="submit" name="search" class="search_button">
+									<img
+										src="../images/search.png"
+										alt="search_icon"
+										width="20px"
+										height="20px"
+									/>
+								</button>
+							</li>
+
+							<li class="bottom_roof_nav_lic">
+								<input type="text" placeholder="Search.." class="searchbar" />
+							</li>
+
+							<button type="submit" name="mic" class="mic_button">
+								<img
+									src="../images/mic.png"
+									alt="mic_icon"
+									width="20px"
+									height="20px"
+								/>
+							</button>
+
+							<li class="bottom_roof_nav_li">
+								<img
+									src="../images/user.png"
+									alt="user_icon"
+									width="20px"
+									height="20px"
+									style="
+										position: relative;
+										left: 43px;
+										top: 6px;
+										background-color: transparent;
+									"
+								/>
+								<button type="submit" name="Register" class="button2">
+									Register
+								</button>
+							</li>
+							<li class="bottom_roof_nav_li">
+								<img
+									src="../images/user.png"
+									alt="user_icon"
+									width="20px"
+									height="20px"
+									style="
+										position: relative;
+										left: 43px;
+										top: 6px;
+										background-color: transparent;
+									"
+								/>
+								<button type="submit" name="login" class="button1">
+									Login
+								</button>
+							</li>
+							<li class="bottom_roof_nav_ch">
+								<a href="#" class="ch_links">Checkout</a>
+							</li>
+							<li class="bottom_roof_nav_ch">
+								<a href="#" class="ca_links">Cart</a>
+							</li>
+
+							<li class="bottom_roof_nav_li">
+								<img
+									src="../images/cart.jpg"
+									alt="cart_logo"
+									class="cart"
+									width="50px"
+									height="45px"
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main_page_links" width="100%">
+				<ul class="main_page_navbar">
+					<li class="main_page_li">
+						<img
+							src="../images/home.png"
+							alt="home_icon"
+							width="16px"
+							height="16px"
+							class="icon"
+						/>
+						<a href="../index.html"  class="main_links" style="border-left: 1.5px solid black;">Home</a>
+					</li>
+					<li class="main_page_li">
+						<img
+							src="../images/bonsai.png"
+							alt="bonsai_icon"
+							width="20px"
+							height="20px"
+							class="icon"
+						/>
+						<a href="product.html"  class="main_links">Products</a>
+					</li>
+					<li class="main_page_li">
+						<img
+							src="../images/research.png"
+							alt="research_icon"
+							width="18px"
+							height="18px"
+							class="icon"
+						/>
+						<a href="Research.html"  class="main_links">Research</a>
+					</li>
+					<li class="main_page_li">
+						<img
+							src="../images/blog.png"
+							alt="blog_icon"
+							width="20px"
+							height="20px"
+							class="icon"
+						/>
+						<a href="Blog.html"  class="main_links">Blog</a>
+					</li>
+					<li class="main_page_li">
+						<img
+							src="../images/about.png"
+							alt="about_icon"
+							width="18px"
+							height="18px"
+							class="icon"
+						/>
+						<a href="aboutus.html"  class="main_links">About us</a>
+					</li>
+					<li class="main_page_li">
+						<img
+							src="../images/feedback.png"
+							alt="feedback_icon"
+							width="20px"
+							height="20px"
+							class="icon"
+						/>
+						<a href="feedbackForm.html" class="main_links"
+							>Feedback Form</a
+						>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</header>
+<!-- products starts -->
+<!-- This div is for the whole content of the body -->
+				 <main style="background-color: white; width: 100%; height: 1750px; margin-top: 180px;">
+
+					<!-- This div is for video and information as a whole -->
+				 <div style="background-color: white;width: 100%; height: 400px;">
+					<!--  This div is only for information -->
+					<div style="background-color: #f0cece;width: 30%; height: 340px; margin-top: 50px; border: 2px solid;float: right; margin-right: 20px;">
+						<img src="../images/informations.png" width="30px" height="30px" class="box_logo" style="float: right;">
+						<br><br>
+						<h1 style="font-size: 20px; margin-left: 10px;"> <u> Delivery </u> </h1>
+						<div class="box_icons">
+								<p style="font-size: 18px; margin-left: 10px; float: left; margin-bottom: 0; margin-top: 10px;"> Kamalpokhari, Kathmandu </p>
+								<img src="../images/locations.png" width="30px" height="30px" class="box_logo" style="float: right; margin-right: 180px;">
+							</div>
+							<div class="box_icons">
+								<p style="font-size: 18px; margin-left: 10px; float: right; margin-bottom: 2px;margin-right: 180px;"> Cash on delivery available </p>  
+								<img src="../images/cash.png" width="30px" height="30px" class="box_logo" style="float: left; padding-top: 12px; padding-right: 6px; margin-left: 20px;">
+							</div>
+						<br><br><br>
+						<h1 style="font-size: 20px; margin-left: 10px; padding-top: 10px;"> <u> Services </u> </h1>
+						<p style="font-size: 18px; margin-left: 10px;"> Non-refundable </p>
+						<p style="font-size: 18px; margin-left: 10px;"> Warranty not available </p>
+						</div>
+						<!-- This div is only for video section -->
+						<div style="background-color: black; height: 342px; width:720px; float: left; margin-top: 50px; margin-left: 30px;">
+								<video width="720px" height="342px" autoplay loop muted>
+										<source src="../video/video1.MP4" type="video/mp4" height="100%" width="100%">
+										
+									</video>
+						</div>
+						
+				</div>
+						<!-- This div is allocated for the title - Trending -->
+				 <div style="background-color: white;width: 100%;height: 50px;margin-top:10px;">
+						<table class="fortable" style="float: left; margin-top: 10px;margin-left: 40px;">
+						<tr>
+						<th> TRENDING </th>
+						</tr>
+						</table>
+						</div>
+               <!-- For images -->
+						<div class="bgcolorimage1" style="float: left; margin-top: 0px;  margin-left: 30px;">
+						<img src="../images/4.webp" height="100%"; width="100%;" class="product_image">
+						</div>
+						<div class="bgcolorimage2" style="float: right; margin-top: 0px; margin-right: 30px;">
+						<img src="../images/3.webp" height="100%"; width="100%;" class="product_image">
+						</div>
+						<div class="bgcolorimage3" style="float: right; margin-top: 0px;  margin-right: 120px;">
+						<img src="../images/1.webp" height=100%; width=100%; class="product_image">
+						</div>
+
+
+						<div class="bgcolortext" style=" float: left; margin-top: 10px;margin-bottom: 10px; margin-right:0.5%; margin-left: 30px;">
+						<h1 class= "fornop" style = "text-align : center"> Bougainvillea </h1>
+						
+						<p class="forsn" style="text-align: center;">  Scientific Name: BOUGAINVILLEA </p>
+						
+						<h1 style = "font-size: 18px; text-align: center;"> PRICE:Rs 350 </h1>
+						<div class="button_icons">
+								<button class="buy_now" onclick="myFunction()" style=" float: left; margin-top: 5px; "> Buy Now</button>
+								<a href="#cart.html">
+								
+								<img src="../images/shopping_cart.png" alt="cart_logo"  onclick="alert('Added to cart sucessfully')" class="product_icon" style="float: right; padding-right:100px;"></a>
+						
+						</div>
+							
+					</div>
+							
+
+								
+						</div>
+						<div class="bgcolortext" style="float:right; margin-top: 10px; margin-bottom: 10px; margin-left: 1%; margin-right: 30px;">
+								<h1 class= "fornop" style = "text-align : center"> Juniper </h1>
+								
+								<p class="forsn" style="text-align: center;"> Scientific Name: JUNIPERUS </p>
+								
+								<h1 style = "font-size: 18px; text-align: center;"> PRICE:Rs 275 </h1>
+								<div class="button_icons">
+										<button class="buy_now" onclick="myFunction()" style=" float: left; margin-top: 5px; "> Buy Now</button>
+										<a href="#cart.html">
+										
+										<img src="../images/shopping_cart.png" alt="cart_logo" onclick="alert('Added to cart sucessfully')" class="product_icon" style="float: right; padding-right:100px;"></a></div>
+		
+		
+									
+							</div>
+
+								
+						</div>
+						<div class="bgcolortext" style="float: right; margin-top: 10px;margin-bottom: 10px; margin-left: 1%; margin-right: 105px;">
+								<h1 class= "fornop" style = "text-align : center"> Snow rose </h1>
+								
+								<p class="forsn" style="text-align: center;"> Scientific Name: SERISSA </p>
+								
+								<h1 style = "font-size: 18px; text-align: center;"> PRICE:Rs 250 </h1>
+								
+								<div class="button_icons">
+										<button class="buy_now" onclick="myFunction()" style=" float: left; margin-top: 5px; "> Buy Now</button>
+										<a href="#cart.html">
+										
+										<img src="../images/shopping_cart.png" alt="cart_logo" onclick="alert('Added to cart sucessfully')" class="product_icon" style="float: right; padding-right:100px;"></a></div>
+		
+		
+									
+							</div>
+
+								
+						</div>
+<!-- This div is allocated for the title - On sale -->
+						
+						<div style="background-color: white;width: 100%;height: 50px;margin-top:530px ;">
+								<table class="fortable" style="float: left; margin-top: 10px;margin-left: 40px;">
+										<tr>
+										<th id="discount"></th>
+										</tr>
+										</table>
+						</div>
+<!-- For images -->
+
+						<div class = "bgcolorimage1" style="float: left; margin-top: 0px;  margin-left: 30px;">
+						<img src="../images/6.jpg" height="100%"; width="100%;" class="product_image">
+						</div>
+						<div class="bgcolorimage2" style="float: right; margin-top: 0px;  margin-right: 30px;">
+						<img src="../images/7.jpg" height="100%"; width="100%;" class="product_image">
+						</div>
+						<div class="bgcolorimage3" style="float: right; margin-top: 0px;  margin-right: 120px;">
+						<img src="../images/8.jpg" height="100%"; width="100%;" class="product_image">
+						</div>
+
+						<div class="bgcolortext" style="float: left; margin-top: 10px;margin-bottom: 10px; margin-right:0.5%; margin-left: 30px;">
+						<h1 class= "fornop" style = "text-align : center"> Japanese elm </h1>
+						
+						<p class="forsn" style="text-align: center;">  Scientific Name: ZELKOVA </p>
+						
+						<h1 style = "font-size: 18px; text-align: center;"> PRICE: <strike style="color: red;"> Rs 360  </strike>  Rs 295 </h1>
+						<p id="discountLeft" style="text-align: center; margin: 0;"> </p>
+						<div class="button_icons">
+								<button class="buy_now" onclick="myFunction()" style=" float: left; margin-top: 5px; "> Buy Now</button>
+								<a href="#cart.html">
+								
+								<img src="../images/shopping_cart.png" alt="cart_logo" onclick="alert('Added to cart sucessfully')" class="product_icon" style="float: right; padding-right:100px;"></a></div>
+
+
+							
+					</div>
+
+								
+						</div>
+						<div class="bgcolortext" style="float:right; margin-top: 10px;margin-bottom: 10px; margin-left: 1%; margin-right: 30px;">
+								<h1 class= "fornop" style = "text-align : center"> Ficus </h1>
+								
+								<p class="forsn" style="text-align: center;"> Scientific Name : FICUS RETUSA  </p>
+								
+								<h1 style = "font-size: 18px; text-align: center;"> PRICE:<strike style="color: red;"> Rs 375 </strike> Rs 250  </h1>
+								<p id="discountLeft1" style="text-align: center; margin: 0;"> </p>
+								<div class="button_icons">
+										<button class="buy_now" onclick="myFunction()" style=" float: left; margin-top: 5px; "> Buy Now</button>
+										<a href="#cart.html">
+										
+										<img src="../images/shopping_cart.png" alt="cart_logo" onclick="alert('Added to cart sucessfully')" class="product_icon" style="float: right; padding-right:100px;"></a></div>
+		
+		
+									
+							</div>
+
+								
+						</div>
+						<div class="bgcolortext" style="float: right; margin-top: 10px;margin-bottom: 10px; margin-left: 1%; margin-right: 105px;">
+								<h1 class= "fornop" style = "text-align : center"> Red Maple </h1>
+								
+								<p class="forsn" style="text-align: center; margin: 0px 0px 10px 0px;" > Scientific Name: ACER RUBRUM </p>
+								
+								
+								<h1 style = "font-size: 18px; text-align: center;"> PRICE:<strike style="color: red;"> Rs 400  </strike>  Rs 315  </h1>
+								<p id="discountLeft2" style="text-align: center; margin: 0;"> </p>
+								
+								<div class="button_icons">
+										<button class="buy_now" onclick="myFunction()" style=" float: left; margin-top: 5px; "> Buy Now</button>
+										<a href="#cart.html">
+										
+										<img src="../images/shopping_cart.png" alt="cart_logo" onclick="alert('Added to cart sucessfully')" class="product_icon" style="float: right; padding-right:100px;"></a></div>
+		
+		
+									
+							</div>
+
+								
+						</div>
+
+					 
+						<div style="background-color: white;width: 100%;height: 50px;margin-top:530px ;">
+						<table class="fortable" style="float: left; margin-top: 10px;margin-left: 40px;">
+								<tr>
+								<th> FOR YOU </th>
+								</tr>
+								</table>
+						</div>
+
+
+						<div class = "bgcolorimage1" style="float: left; margin-top: 0px;  margin-left: 30px;">
+						<img src="../images/9.jpg" height="100%"; width="100%;" class="product_image">
+						</div>
+						<div class="bgcolorimage2" style="float: right; margin-top: 0px; margin-right: 30px;">
+						<img src="../images/2.jpg" height="100%"; width="100%;" class="product_image">
+						</div>
+						<div class="bgcolorimage3" style="float: right; margin-top: 0px;  margin-right: 120px;">
+						<img src="../images/5.jpg" height="100%"; width="100%;" class="product_image">
+						</div>
+
+
+						<div class="bgcolortext" style="float: left; margin-top: 10px; margin-bottom: 10px; margin-right:0.5%; margin-left: 30px;">
+								<h1 class= "fornop" style = "text-align : center"> Pines </h1>
+								
+								<p class="forsn" style="text-align: center;"> Scientific Name: PINUS </p>
+								
+								<h1 style = "font-size: 18px; text-align: center;"> PRICE:Rs 365 </h1>
+								
+								<div class="button_icons">
+										<button class="buy_now" onclick="myFunction()" style=" float: left; margin-top: 5px; "> Buy Now</button>
+										<a href="#cart.html">
+										
+										<img src="../images/shopping_cart.png" alt="cart_logo" onclick="alert('Added to cart sucessfully')" class="product_icon" style="float: right; padding-right:100px;"></a></div>
+		
+		
+									
+							</div>
+								
+						</div>
+						<div class="bgcolortext" style="float:right; margin-top: 10px; margin-bottom: 10px; margin-left: 1%; margin-right: 30px;">
+								<h1 class= "fornop" style = "text-align : center"> Spruce </h1>
+								
+								<p class="forsn" style="text-align: center;"> Scientific Name: PICEA </p>
+								
+								<h1 style = "font-size: 18px; text-align: center;"> PRICE:Rs 275 </h1>
+								
+								<div class="button_icons">
+										<button class="buy_now" onclick="myFunction()" style=" float: left; margin-top: 5px; "> Buy Now</button>
+										<a href="#cart.html">
+										
+										<img src="../images/shopping_cart.png" alt="cart_logo" onclick="alert('Added to cart sucessfully')" class="product_icon" style="float: right; padding-right:100px;"></a></div>
+		
+		
+									
+							</div>
+								
+						</div>
+						<div class="bgcolortext" style="float: right; margin-top: 10px; margin-bottom: 10px; margin-left: 1%; margin-right: 105px;">
+								<h1 class= "fornop" style = "text-align : center"> Chinese Elm </h1>
+								
+								<p class="forsn" style="text-align: center;"> Scientific Name :  ULMUS PARVIFLORA  </p>
+								
+								<h1 style = "font-size: 18px; text-align: center;"> PRICE:Rs 300 </h1>
+								
+								<div class="button_icons">
+										<button class="buy_now" onclick="myFunction()" style=" float: left; margin-top: 5px; "> Buy Now</button>
+										<a href="#cart.html">
+										
+										<img src="../images/shopping_cart.png" alt="cart_logo" onclick="alert('Added to cart sucessfully')" class="product_icon" style="float: right; padding-right:100px;"></a></div>
+		
+		
+									
+							</div>
+									 
+						</div> 
+					</div> 
+				</main> 
+		</div>
+		<!-- footer section -->
+	<footer class="footer" width="100%">
+			<div class="footer_section">
+				<!-- Left footer -->
+				<div class="left_footer">
+								<div class="left_box">
+								<p class="left_text">Social Medias: </p>
+								<div class="icons_box">
+								<img src="../images/facebook.png" alt="facebook_logo" class="left_icons fb ">
+								<img src="../images/insta.png" alt="facebook_logo" class="left_icons ins">
+								<img src="../images/tweet.png" alt="facebook_logo" class="left_icons tweet">
+								<img src="../images/pininterest.png" alt="facebook_logo" class="left_icons pin">
+								<img src="../images/viber.png" alt="facebook_logo" class="left_icons viber">
+								
+							</div>
+							<div class="bottom_nav">
+								<p class="left_text" style="margin: 10px 0px 0px 20px ;"><a href="./index.html" style="color:black">Home</a></p> 
+								<p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="product.html" style="color:black">Shop</a></p> 
+								<p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="Research.html" style="color:black">Research</a></p> 
+								<p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="Blog.html" style="color:black">Blog</a></p> 
+								<p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="aboutus.html" style="color:black">About</a></p> 
+								<p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="feedbackForm.html" style="color:black">Feedback</a></p> 
+
+							</div>
+						</div>
+
+					</div>
+					<!-- Centered Footer -->
+				<div class="centered_footer">
+					<figure class="footer_logo_portion" style="text-align: center; ">
+						<img src="../images/NB_FOOTER_LOGO.png"  class="footer_logo">
+						<figcaption class="img_caption">The House of Bonsai</figcaption>
+						<figcaption class="img_caption">&copy; House of Bonsai, 2022 || Privacy Policy</figcaption>
+				</figure>
+			</div>
+	
+				
+				 
+	<!-- Right footer -->
+				
+				<div class="right_footer">
+					<div class="right_texts">
+					<p class="right_text" style="text-decoration: underline;">Contact us:</p> 
+					<p class="right_text">Tel: 1922200, 1420221</p> 
+					<p class="right_text">Location: Kamalpokhari, Kathmandu</p> 
+					<p class="right_text">Email: thebonsaihouse123@gmail.com</p>
+					<p class="right_text" style="text-decoration: underline;">About us:</p> 
+				</div>
+					<div class="image_box">
+						<a href="../html/cv/bipul.html" > <img src="../images/bipul.jpeg" alt="bipul" class="perImage1"></a>
+							<a href="../html/cv/kishor.html" ><img src="../images/Personal_photo .png" alt="kishor" class="perImage2"></a>
+							<a href="../html/cv/riddhi.html" ><img src="../images/riddhi2.jpg" alt="riddhi" class="perImage3"></a>
+						 <a href="../html/cv/ShristiRai.html" > <img src="../images/Shristi.jpeg" alt="shristi" class="perImage4"></a>
+						 <a href="../html/cv/sachida.html" >  <img src="../images/sachidaa.jpg" alt="sachida" class="perImage5"></a>
+						 
+					</div>
+				</div>
+			</div>
+</footer>
+		
+
+		<script>
+			// <!-- This script tag is used for msg popup after clicking on buy now button -->
+			function myFunction() {
+				alert("You have successfully bought the item");
+			}
+			function discount(){
+				// variable time to get the latest date
+				var time = new Date();
+				// hours variable to store hours
+				var hours = time.getHours();
+				// minutes variable to store hours
+				var minutes = time.getMinutes();
+		
+				
+				// days variable to store days
+				var discountDays = time.getDate();
+				// adding up the days left with discount days upto 2
+				daysLeft = discountDays + 2;
+				// subtracting the hours
+				var hoursLeft = 24 - hours;
+				// subtracting the minutes
+				var minutesLeft = (hoursLeft*60) - minutes;  
+				// subtracting the seconds
+				
+				
+				// setting the paragraph value with help of its id
+				var onSale = document.getElementById("discount").innerHTML = "Heavy Discount on On Sale Bonsai From " + discountDays + "<sup>rd</sup>" + " to " + daysLeft + "<sup>th</sup>"+ " February. So, Shop Now!!!";
+				// setting the paragraph value with help of its id
+				var onSaleTime = document.getElementById("discountLeft").innerHTML = "15% Off till: " + (daysLeft-discountDays) + "d " + (hoursLeft)+ " hours " + (minutesLeft) + " minutes left" ; 
+				// setting the paragraph value with help of its id
+				var onSaleTime = document.getElementById("discountLeft1").innerHTML = "15% Off till: " + (daysLeft-discountDays) + "d " + (hoursLeft)+ " hours " + (minutesLeft) + " minutes left" ; 
+				// setting the paragraph value with help of its id
+				var onSaleTime = document.getElementById("discountLeft2").innerHTML = "15% Off till: " + (daysLeft-discountDays) + "d " + (hoursLeft)+ " hours " + (minutesLeft) + " minutes left" ; 
+			 
+				
+				
+			}
+			discount();
+			function time(){
+				var time = new Date();
+				var date = time.toDateString();
+				// Hours is stored in hours variable
+				var hours = time.getHours();
+				// minutes is stored in minutes variable
+				var minutes = time.getMinutes();
+				// seconds is stored in seconds variable
+				var seconds = time.getSeconds();
+				var times = document.getElementById("product_date").innerHTML =  date + " / " + hours + " : " + minutes + " : " + seconds;
+			}
+			time();
+		</script> 
+</body>
+
+	
+</html>

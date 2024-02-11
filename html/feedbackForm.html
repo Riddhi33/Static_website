@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bipul Shrestha">
+    <meta name="description" content="FeedBack Form Page of House of Bonsai">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Feedback Form - Bonsai</title>
+    <link rel="stylesheet" href="../css/style.css" text="style/css" />
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        /* * {box-sizing: border-box;} */
+        
+        select {
+            width: 300px;
+        }
+        .wrapper_div {
+             max-width: 100%;
+    
+          }
+          .feedback_head {
+              width: 100%;
+              height: 100px;
+              background-color: #B6D6A8;
+              
+          }
+
+          .feedback_text {
+              margin: 0;
+              padding-top: 25px;
+              font-size: 37px;
+              float: right;
+              margin-right: 100px;
+              text-align: center;
+              
+
+          }
+
+        </style>
+        
+</head>
+<body>
+  <!-- //navbar -->
+  <header id="nav_content">
+    <div class="navigation_bar">
+      <div class="top_navbar">
+        <div class="left_container">
+          <li class="img_li">
+            <img
+              src="../images/NEW.png"
+              alt="logo"
+              width="250px"
+              height="222px"
+              class="website_logo"
+            />
+          </li>
+        </div>
+        <div class="right_container">
+          <div class="top_nav">
+            <ul class="roof_nav">
+              <li class="roof_nav_li">
+                <a href="#" class="roof_nav_links date" id="feedback_date"></a>
+              </li>
+              <li class="roof_nav_li">
+                <a href="#" class="roof_nav_links">Contact us</a>
+              </li>
+              <li class="roof_nav_li">
+                <a href="#" class="roof_nav_links">Check Our Store Branch</a>
+              </li>
+              <li class="roof_nav_li"> 
+                <a href="#" class="roof_nav_links">Customer Reviews</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="bottom_nav">
+            <ul class="bottom_roof_nav">
+              <li class="search_icon">
+                <button type="submit" name="search" class="search_button">
+                  <img
+                    src="../images/search.png"
+                    alt="search_icon"
+                    width="20px"
+                    height="20px"
+                  />
+                </button>
+              </li>
+
+              <li class="bottom_roof_nav_lic">
+                <input type="text" placeholder="Search.." class="searchbar" />
+              </li>
+
+              <button type="submit" name="mic" class="mic_button">
+                <img
+                  src="../images/mic.png"
+                  alt="mic_icon"
+                  width="20px"
+                  height="20px"
+                />
+              </button>
+
+              <li class="bottom_roof_nav_li">
+                <img
+                  src="../images/user.png"
+                  alt="user_icon"
+                  width="20px"
+                  height="20px"
+                  style="
+                    position: relative;
+                    left: 43px;
+                    top: 6px;
+                    background-color: transparent;
+                  "
+                />
+                <button type="submit" name="Register" class="button2">
+                  Register
+                </button>
+              </li>
+              <li class="bottom_roof_nav_li">
+                <img
+                  src="../images/user.png"
+                  alt="user_icon"
+                  width="20px"
+                  height="20px"
+                  style="
+                    position: relative;
+                    left: 43px;
+                    top: 6px;
+                    background-color: transparent;
+                  "
+                />
+                <button type="submit" name="login" class="button1">
+                  Login
+                </button>
+              </li>
+              <li class="bottom_roof_nav_ch">
+                <a href="#" class="ch_links">Checkout</a>
+              </li>
+              <li class="bottom_roof_nav_ch">
+                <a href="#" class="ca_links">Cart</a>
+              </li>
+
+              <li class="bottom_roof_nav_li">
+                <img
+                  src="../images/cart.jpg"
+                  alt="cart_logo"
+                  class="cart"
+                  width="50px"
+                  height="45px"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_page_links" width="100%">
+        <ul class="main_page_navbar">
+          <li class="main_page_li">
+            <img
+              src="../images/home.png"
+              alt="home_icon"
+              width="16px"
+              height="16px"
+              class="icon"
+            />
+            <a href="../index.html"  class="main_links" style="border-left: 1.5px solid black;">Home</a>
+          </li>
+          <li class="main_page_li">
+            <img
+              src="../images/bonsai.png"
+              alt="bonsai_icon"
+              width="20px"
+              height="20px"
+              class="icon"
+            />
+            <a href="product.html"  class="main_links">Products</a>
+          </li>
+          <li class="main_page_li">
+            <img
+              src="../images/research.png"
+              alt="research_icon"
+              width="18px"
+              height="18px"
+              class="icon"
+            />
+            <a href="Research.html" class="main_links">Research</a>
+          </li>
+          <li class="main_page_li">
+            <img
+              src="../images/blog.png"
+              alt="blog_icon"
+              width="20px"
+              height="20px"
+              class="icon"
+            />
+            <a href="Blog.html"  class="main_links">Blog</a>
+          </li>
+          <li class="main_page_li">
+            <img
+              src="../images/about.png"
+              alt="about_icon"
+              width="18px"
+              height="18px"
+              class="icon"
+            />
+            <a href="aboutus.html"  class="main_links">About us</a>
+          </li>
+          <li class="main_page_li">
+            <img
+              src="../images/feedback.png"
+              alt="feedback_icon"
+              width="20px"
+              height="20px"
+              class="icon"
+            />
+            <a href="feedbackForm.html" class="main_links"
+              >Feedback Form</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </header>
+
+  <!-- Navbar till here ...  -->
+
+  
+  <div class="wrapper_div" style="padding-top: 20px;">
+    <div class="main">
+      <div class="feedback_head" >
+        <img src="../images/feedback.png" alt="feedback_logo" width="100px" height="100px" style="float: left; margin-left: 80px;">
+        <p class="feedback_text"> Share your feedback and let us know how we can improve.</p>
+      </div>
+      <div class="feedbackform">
+        <form name="feedbackForm" onsubmit="validateForm()">
+            <label>First Name:</label>
+            <br>
+            <input type="text" name="firstname" placeholder="Your name.." size="63">
+            <br><br>
+        
+            <label>Last Name:</label>
+            <br>
+            <input type="text" name="lastname" placeholder="Your last name.." size="63">
+            <br><br>
+
+            <label>Email:</label>
+            <br>
+            <input type="text" name="email" placeholder="Your email address.." size="63">
+            <br><br>
+        
+            <label>Country</label>
+            <br>
+            <select name="country">
+              <option value="nepal">Nepal</option>
+              <option value="australia">Australia</option>
+              <option value="india">India</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <br><br>
+
+            <label>Did you find what you were looking for?</label>
+            <br>
+            <input class="form_text" type="radio" name="find" value="yes" checked> Yes  
+            <input class="form_text" type="radio" name="find" value="no"> No  
+            <input class="form_text" type="radio" name="find" value="partially yes"> Partially Yes  
+            <br><br>
+
+            <label>We would like you to rate us:</label>
+            <br>
+            <input class="form_text" type="radio" name="rate" value="5" checked> Completely satisfied  <br>
+            <input class="form_text" type="radio" name="rate" value="4"> Satisfied  <br>
+            <input class="form_text" type="radio" name="rate" value="3"> Good  <br>
+            <input class="form_text" type="radio" name="rate" value="2"> Needs improvements  <br>
+            <input class="form_text" type="radio" name="rate" value="1"d> Not satisfied   <br>
+            <br><br>
+
+            <label>Please select your feedback category from below:</label>
+            <br>
+            <input class="form_text" type="radio" name="category" value="Suggestion" checked> Suggestion
+            <input class="form_text" type="radio" name="category" value="Question"> Question  <br>
+            <input class="form_text" type="radio" name="category" value="Praise"> Praise  
+            <input class="form_text" type="radio" name="category" value="Problem"> Problem  
+            <br><br>
+        
+            <label>Message Box:</label>
+            <br>
+            <textarea name="subject" placeholder="Write something.." rows="10" cols="72"></textarea>
+            <br><br>
+        
+            <input type="submit" value="Submit" class="submit">
+          </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer" width="100%">
+    <div class="footer_section">
+      <!-- Left Footer -->
+      <div class="left_footer">
+              <div class="left_box">
+              <p class="left_text">Social Medias: </p>
+              <div class="icons_box">
+              <img src="../images/facebook.png" alt="facebook_logo" class="left_icons fb ">
+              <img src="../images/insta.png" alt="facebook_logo" class="left_icons ins">
+              <img src="../images/tweet.png" alt="facebook_logo" class="left_icons tweet">
+              <img src="../images/pininterest.png" alt="facebook_logo" class="left_icons pin">
+              <img src="../images/viber.png" alt="facebook_logo" class="left_icons viber">
+              
+            </div>
+            <div class="bottom_nav">
+              <p class="left_text" style="margin: 10px 0px 0px 20px ;"><a href="../index.html" style="color:black">Home</a></p> 
+              <p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="product.html" style="color:black">Shop</a></p> 
+              <p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="Research.html" style="color:black">Research</a></p> 
+              <p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="Blog.html" style="color:black">Blog</a></p> 
+              <p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="aboutus.html" style="color:black">About</a></p> 
+              <p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="feedbackForm.html" style="color:black">Feedback</a></p> 
+
+            </div>
+          </div>
+
+        </div>
+        <!-- Centered Footer -->
+      <div class="centered_footer">
+        <figure class="footer_logo_portion" style="text-align: center; ">
+          <img src="../images/NB_FOOTER_LOGO.png"  class="footer_logo">
+          <figcaption class="img_caption">The House of Bonsai</figcaption>
+          <figcaption class="img_caption">&copy; House of Bonsai, 2022 || Privacy Policy</figcaption>
+      </figure>
+    </div>
+
+      
+       
+  <!-- Right Footer -->
+      
+    <div class="right_footer">
+        <div class="right_texts">
+        <p class="right_text" style="text-decoration: underline;">Contact us:</p> 
+        <p class="right_text">Tel: 1922200, 1420221</p> 
+        <p class="right_text">Location: Kamalpokhari, Kathmandu</p> 
+        <p class="right_text">Email: thebonsaihouse123@gmail.com</p>
+        <p class="right_text" style="text-decoration: underline;">About us:</p> 
+    </div>
+        <div class="image_box">
+          <a href="../html/cv/bipul.html" > <img src="../images/bipul.jpeg" alt="bipul" class="perImage1"></a>
+              <a href="../html/cv/kishor.html" ><img src="../images/Personal_photo .png" alt="kishor" class="perImage2"></a>
+              <a href="../html/cv/riddhi.html" ><img src="../images/riddhi2.jpg" alt="riddhi" class="perImage3"></a>
+             <a href="../html/cv/ShristiRai.html" > <img src="../images/Shristi.jpeg" alt="shristi" class="perImage4"></a>
+             <a href="../html/cv/sachida.html" >  <img src="../images/sachidaa.jpg" alt="sachida" class="perImage5"></a>
+        </div>
+      </div>
+  </div>
+</footer>
+    
+</body>
+<script>
+  function validateForm() {
+    var fname = document.forms["feedbackForm"]["firstname"].value;
+    var lname = document.forms["feedbackForm"]["lastname"].value;
+    var eadr = document.forms["feedbackForm"]["email"].value;
+    var messageBox = document.forms["feedbackForm"]["subject"].value;
+
+
+    if(fname == "" || lname == "" || eadr == "" || messageBox == "")
+    {
+      if(fname == "" && lname == "" && eadr == "" && messageBox == "")
+      {
+        alert("Please fill the form properly!");
+        return false;
+      }
+      else if (fname == "" && lname == "" && eadr == ""){
+        alert("First name, last name and email are empty!");
+        return false;
+      }
+      else if (fname == "" && lname == "" && messageBox == ""){
+        alert("First name, last name and message box are empty!");
+        return false;
+      }
+      else if (fname == "" && messageBox == "" && eadr == ""){
+        alert("First name, email and message box are empty!");
+        return false;
+      }
+      else if (messageBox == "" && lname == "" && eadr == ""){
+        alert("Last name, email and message box are empty!");
+        return false;
+      }
+      else if (fname == "" && lname == ""){
+        alert("First name and last name are empty!");
+        return false;
+      }
+      else if (fname == "" && eadr == ""){
+        alert("First name and email are empty!");
+        return false;
+      }
+      else if (fname == "" && messageBox == ""){
+        alert("First name and message box are empty!");
+        return false;
+      }
+      else if (lname == "" && eadr == ""){
+        alert("Please fill the form properly!");
+        return false;
+      }
+      else if (lname == "" && messageBox == ""){
+        alert("Last name and message box are empty");
+        return false;
+      }
+      else if (messageBox == "" && eadr == ""){
+        alert("Email and message box are empty!");
+        return false;
+      }
+      else if (fname == ""){
+        alert("First name is empty!");
+        return false;
+      }
+      else if (lname == ""){
+        alert("Last name is empty!");
+        return false;
+      }
+      else if (eadr == ""){
+        alert("Email address is empty!");
+        return false;
+      }
+      else if (messageBox == ""){
+        alert("Message box is empty!");
+        return false;
+      }
+    }
+    else
+    {
+      alert("Thank you for your feedback! " + fname + " " + lname + " We will get back to you after reviewing this form.")
+      return false;
+    }
+  }
+    
+</script>
+<script type="text/javascript">
+  function time(){
+     var time = new Date();
+     var date = time.toDateString();
+      // Hours is stored in hours variable
+     var hours = time.getHours();
+      // minutes is stored in minutes variable
+     var minutes = time.getMinutes();
+      // seconds is stored in seconds variable
+     var seconds = time.getSeconds();
+     var times = document.getElementById("feedback_date").innerHTML =  date + " / " + hours + " : " + minutes + " : " + seconds;
+   }
+   time();
+ </script>
+</html>

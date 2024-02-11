@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Shristi Rai">
+    <meta name="description" content="Blog of House of Bonsai">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Blog - House of Bonsai</title>
+    <link rel="stylesheet" href="../css/style.css" text="style/css" />
+    <style>
+      #main_body{
+    
+   width: 100%;
+   
+   }
+   .blogcontent{
+       width: 70%;
+       border-right: solid #000000;
+       float: left;
+   }
+.headings{
+       margin: 0px 140px 10px 140px;
+       text-align: center;
+       font-family: fantasy;
+       font-weight: 100;
+       font-size: 40px;
+   }
+   
+   .headings1{
+       padding-left: 5px;
+       font-family:  cursive;
+       line-height: 1.7rem;
+       font-size: 30px;
+       scroll-margin-top:13rem ;
+   }
+    </style>
+  </head>
+  
+  <body>
+    <!--creating a wrapper-->
+    <div class="wrapper">
+    <!-- //navbar -->
+      <header id="nav_content">
+        <div class="navigation_bar">
+      
+          <div class="top_navbar">
+            <div class="left_container">
+              <li class="img_li">
+                <img
+                  src="../images/NEW.png"
+                  alt="logo"
+                  width="250px"
+                  height="222px"
+                  class="website_logo"
+                />
+              </li>
+            </div>
+            <div class="right_container">
+              <div class="top_nav"> 
+  
+  
+  
+  
+  
+                <ul class="roof_nav">
+                  <li class="roof_nav_li">
+                    <a href="#" class="roof_nav_links date" id="blog_date">Date</a>
+                  </li>
+                  <li class="roof_nav_li">
+                    <a href="#" class="roof_nav_links">Contact us</a>
+                  </li>
+                  <li class="roof_nav_li">
+                    <a href="#" class="roof_nav_links">Check Our Store Branch</a>
+                  </li>
+                  <li class="roof_nav_li"> 
+                    <a href="#" class="roof_nav_links">Customer Reviews</a>
+                  </li>
+                </ul>
+              </div>
+  
+              <div class="bottom_nav">
+                <ul class="bottom_roof_nav">
+                  <li class="search_icon">
+                    <button type="submit" name="search" class="search_button">
+                      <img
+                        src="../images/search.png"
+                        alt="search_icon"
+                        width="20px"
+                        height="20px"
+                      />
+                    </button>
+                  </li>
+  
+                  <li class="bottom_roof_nav_lic">
+                    <input type="text" placeholder="Search.." class="searchbar" />
+                  </li>
+  
+                  <button type="submit" name="mic" class="mic_button">
+                    <img
+                      src="../images/mic.png"
+                      alt="mic_icon"
+                      width="20px"
+                      height="20px"
+                    />
+                  </button>
+  
+                  <li class="bottom_roof_nav_li">
+                    <img
+                      src="../images/user.png"
+                      alt="user_icon"
+                      width="20px"
+                      height="20px"
+                      style="
+                        position: relative;
+                        left: 43px;
+                        top: 6px;
+                        background-color: transparent;
+                      "
+                    />
+                    <button type="submit" name="Register" class="button2">
+                      Register
+                    </button>
+                  </li>
+                  <li class="bottom_roof_nav_li">
+                    <img
+                      src="../images/user.png"
+                      alt="user_icon"
+                      width="20px"
+                      height="20px"
+                      style="
+                        position: relative;
+                        left: 43px;
+                        top: 6px;
+                        background-color: transparent;
+                      "
+                    />
+                    <button type="submit" name="login" class="button1">
+                      Login
+                    </button>
+                  </li>
+                  <li class="bottom_roof_nav_ch">
+                    <a href="#" class="ch_links">Checkout</a>
+                  </li>
+                  <li class="bottom_roof_nav_ch">
+                    <a href="#" class="ca_links">Cart</a>
+                  </li>
+  
+                  <li class="bottom_roof_nav_li">
+                    <img
+                      src="../images/cart.jpg"
+                      alt="cart_logo"
+                      class="cart"
+                      width="50px"
+                      height="45px"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="main_page_links" width="100%">
+            <ul class="main_page_navbar">
+              <li class="main_page_li">
+                <img
+                  src="../images/home.png"
+                  alt="home_icon"
+                  width="16px"
+                  height="16px"
+                  class="icon"
+                />
+                <a href="../index.html" class="main_links" style="border-left: 1.5px solid black;">Home</a>
+              </li>
+              <li class="main_page_li">
+                <img
+                  src="../images/bonsai.png"
+                  alt="bonsai_icon"
+                  width="20px"
+                  height="20px"
+                  class="icon"
+                />
+                <a href="product.html" class="main_links">Products</a>
+              </li>
+              <li class="main_page_li">
+                <img
+                  src="../images/research.png"
+                  alt="research_icon"
+                  width="18px"
+                  height="18px"
+                  class="icon"
+                />
+                <a href="Research.html" class="main_links">Research</a>
+              </li>
+              <li class="main_page_li">
+                <img
+                  src="../images/blog.png"
+                  alt="blog_icon"
+                  width="20px"
+                  height="20px"
+                  class="icon"
+                />
+                <a href="Blog.html" class="main_links">Blog</a>
+              </li>
+              <li class="main_page_li">
+                <img
+                  src="../images/about.png"
+                  alt="about_icon"
+                  width="18px"
+                  height="18px"
+                  class="icon"
+                />
+                <a href="aboutus.html" class="main_links">About us</a>
+              </li>
+              <li class="main_page_li">
+                <img
+                  src="../images/feedback.png"
+                  alt="feedback_icon"
+                  width="20px"
+                  height="20px"
+                  class="icon"
+                />
+                <a href="feedbackForm.html" class="main_links"
+                  >Feedback Form</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        </header>
+    <!-- Navbar till here ...  -->
+
+    
+
+     <!--main body-->
+      
+      <main id="main_body" width="100%">
+
+
+
+
+        <div style="height: 180px;"></div>
+        <!--div for the written part of the blog-->
+        <div class="blogcontent" width="100%">
+
+
+
+          <div style=" padding-top: 20px;">
+            <h1 class="headings">Technology And Its Impact In The World</h1><br>
+            <div class="info"> Posted 23 Jan,2023 by Shristi</div>
+          </div>
+          <div class="paras">
+            <h2 class="headings1" id="Tech">Technology</h2>
+            <div class="blogimg_right">
+              <img src="../images/blog 1.jpg" style="width: 100%;height: 350px;">
+            </div>
+            <p class="texts">We, human beings are creatures always striving for improvement. We are always trying to achieve for something above or beyond what we initially have with the mindset “Even though the things are good now, they could always be better”. We are constantly working for the better, the faster and the easier. Technology is one of those human invention created to help meet human needs, and solve problems. Technology is basically an application of scientific knowledge to design and make operations easier and more convenient.</p><p class="texts" style="text-indent:40px"> Technology is used in our day to day life. The internet and devices such as laptops, phones and tablets are all a part of technology. It includes many creative solutions to everyday problems that humans face. The existence of problems gives way to create technological advancement. Technology has helps revolutionize the society. It helps human in their basic needs such as food and shelter. It helps us from telling the time to connecting the society on a global scale.  </p>
+            <br><br>
+          </div>
+            <div  class="paras">
+            <h2  class="headings1" id="P_Impact" >The Positive Impacts of Technology</h2>
+            <div class="blogimg_left"> 
+              <img src="../images/blog 2.jpg" style="width:100%;height: 345px; ">
+            </div>
+            <p class="texts">Technology has improved the human experience by the invention of objects and devices that solve everyday problems. It is present in every sector of the human life like communication, entertainment, education, farming, etc. Since everything related to life has been connected with technology, it has given a new direction to development. Technology  has become the gateway to economic prosperity of a country. With the help of technology, it has been possible to make new devices and make new discoveries. The advanced technology provides with new dimensions of development and hence helps in increasing the economic rate of a country.<br><p class="texts"style="text-indent:40px"> One of the aspect on which technology has a great impact is how it affects the learning process. Technology gives a learner better access to resources. It makes learning more interactive and collaborative. The internet gives us access to any resources at a twentyfour hour rate. It expands the boundary of a classroom by making it possible to hold online classes. People can access learning and resources through various platforms like YouTube and other social media. Similarly, technology has also brought many methods of electronic communication. We can communicate with a person that lives on the other side of the world simply using the internet. There are social medias like facebook, Instagram and messenger used for personal communication, emails for professional communication and also video conferencing and meetings when necessary. Technology has also made advancements in the health industry. The machines used in the hospitals to diagnose, treat and monitor symptoms and diseases are all technological inventions. The production of drugs and medications are result of technological advancement.  Increased accessibility of treatment and promotion of overall health of human being are possible due to advancement in technology.Thus, the more advancement in technology, the more solutions for everyday problems.
+            </p>
+          </div>
+          <br><br>
+          <div class="paras">
+            <h2  class="headings1" id="N_Impact" >The Negative Impacts of Technology</h2>
+            <div class="blogimg_right">
+              <img src="../images/blog 3.jpg" style="width:100%; height: 320px;">
+            </div>
+            <p class="texts">Technology has a lot of positive effect and changes in an individual’s life and the world. However, it is important to understand that too much of everything isn’t always good. There have been evidences for negative effects of technology and its overuse. It can lead to various psychological and physical issues.</p>
+            <p class="texts" style="text-indent: 30px"> Technology can be very addictive. The easier solutions that technology provides can make people solely dependent on it. It makes us forget some essential traditional skills like reading maps, and performing simple calculations. People depend upon GPS for directions and calculators for even the simplest calculations. They solely depend upon the internet and the computer for information which in turn makes them lose their ability to think by themselves.  Technology has made the means of transportation mechanized and getting food delivered to our doorstep in span of minutes possible. It makes people sluggish and lazy by promoting a more sedentary lifestyle and contributes to health problems like obesity, diabetes, cardiovascular diseases and even premature death. Using technologies too close to bedtime also causes sleep issues. The light from cell phones and computers stimulate the brain resulting in insomnia and messed up sleep schedules. They also cause blurred vision, dry eyes and eyestrain. Similarly technology has provided with platforms where we can listen to music, play games, chat, and even watch videos. All of these can be very addictive so much that we forget our work and spend time on it rather than doing other productive activities. All the social interactions on the internet are also not positive. People can encounter negative interactions online. This can lead to depression and anxiety. The internet and mobile technology can decrease communication and relations between people in the real world making it harder to have face-to-face contact. There is also possibility of invasion of privacy because anyone can find you anywhere and at anytime.As we can see technology doesn't only have benefits but also some downsides to it.
+          </p>
+          </div>
+          <br><br>
+          <div  class="paras">
+            <h2 class="headings1" id="Impact_tech" >Technology For E-commerce</h2>
+            <div class="blogimg_left">
+              <img src="../images/blog 4.jpg" style="width:100%; height:350px">
+            </div>
+            <p class="texts">There are a host of technologies varying based on their application in different fields. One of them is Information Technology (IT). IT involves the use of computer systems, networking and other physical devices for infrastructure and operations to create, process, store, and exchange electronic data. The information technology is generally used for business operations. IT supports building websites for products and services, monitors it and oversees the security of the applications, services and infrastructures.</p>
+            <p class="texts"> Information Technology can be used for e-commerce. E-commerce refers to buying and selling products or services via computer networks such as the Internet. In the context of a business selling Bonsai plants commercially, a webpage where informations about the products and the overall business can be found, is built. Since a website can be accessible to anyone, anywhere and at anytime, potential customers can access the website and learn or get information about the products and services even during non business hours. An e-commerce website should also be able to process electronic transactions. Servers used as data centers also reach the end of their operational lifecycle since data is created and processed constantly.Similarly, threats and attempts for piracy can occur. Information technology hence is used for upgrading servers, protecting data, providing user support and the overall improvement of a business.</p>
+          </div>
+          <br><br>
+          <div  class="paras">
+            <h2  class="headings1" id="Conclusion">Conclusion</h2>
+            <p class="texts">Technology has become a primal part of our daily lives. It affects the way an individual thinks and works. Technology makes work and life comfortable. On the other hand, it also makes you dependent and cause health and psychological consequences. But, we have come to a point where we can no longer run away from technology. It is of utmost importance that we learn about technology and use it in our lives productively and be careful to not be addicted and lose ourselves in it.</p>
+            
+          </div>
+          <br><br>
+        </div>
+          <!--fixed clickable section that redirects to different div of the page-->
+        <div class="fixed_section" >
+          <a href="#main_body" style="text-decoration: none;"><h2 class=" jump_section">Jump to Section</h2></a>
+            <ul type="circle" >
+            <li class="jump_options"><a href="#Tech" class="jump_links">Technology</a></li>
+            <li class="jump_options"><a href="#P_Impact" class="jump_links" >Positive Impacts</a></li>
+            <li class="jump_options"><a href="#N_Impact" class="jump_links">Negative Impacts</a></li>
+            <li class="jump_options"><a href="#Impact_tech" class="jump_links"> Technology For E-commerce</a></li>
+            <li class="jump_options"><a href="#Conclusion" class="jump_links" >Conclusion</a></li>
+            </ul>
+        </div>
+
+
+
+        
+      
+      </div>
+
+
+
+
+
+      </main>
+
+
+
+
+
+
+
+  <footer class="footer" width="100%">
+        <div class="footer_section" style="position: relative;">
+          <!-- Left Footer -->
+          <div class="left_footer">
+                  <div class="left_box">
+                  <p class="left_text">Social Medias: </p>
+                  <div class="icons_box">
+                  <img src="../images/facebook.png" alt="facebook_logo" class="left_icons fb ">
+                  <img src="../images/insta.png" alt="facebook_logo" class="left_icons ins">
+                  <img src="../images/tweet.png" alt="facebook_logo" class="left_icons tweet">
+                  <img src="../images/pininterest.png" alt="facebook_logo" class="left_icons pin">
+                  <img src="../images/viber.png" alt="facebook_logo" class="left_icons viber">
+                  
+                </div>
+                <div class="bottom_nav">
+                  <p class="left_text" style="margin: 10px 0px 0px 20px ;"><a href="../index.html" style="color:black">Home</a></p> 
+                  <p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="product.html" style="color:black">Shop</a></p> 
+                  <p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="Research.html" style="color:black">Research</a></p> 
+                  <p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="Blog.html" style="color:black">Blog</a></p> 
+                  <p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="aboutus.html" style="color:black">About</a></p> 
+                  <p class="left_text" style="margin: 10px 0px 0px 20px ;" ><a href="feedbackForm.html" style="color:black">Feedback</a></p> 
+  
+                </div>
+              </div>
+  
+            </div>
+
+            <!-- Centered Footer -->
+          <div class="centered_footer">
+            <figure class="footer_logo_portion" style="text-align: center; ">
+              <img src="../images/NB_FOOTER_LOGO.png"  class="footer_logo">
+              <figcaption class="img_caption">The House of Bonsai</figcaption>
+              <figcaption class="img_caption">&copy; House of Bonsai, 2022 || Privacy Policy</figcaption>
+            </figure>
+          </div>
+    
+          
+           
+    
+          <!-- Right footer -->
+          <div class="right_footer">
+            <div class="right_texts">
+            <p class="right_text" style="text-decoration: underline;">Contact us:</p> 
+            <p class="right_text">Tel: 1922200, 1420221</p> 
+            <p class="right_text">Location: Kamalpokhari, Kathmandu</p> 
+            <p class="right_text">Email: thebonsaihouse123@gmail.com</p>
+            <p class="right_text" style="text-decoration: underline;">About us:</p> 
+          </div>
+            <div class="image_box">
+              <a href="../html/cv/bipul.html"> <img src="../images/bipul.jpeg" alt="bipul" class="perImage1"></a>
+              <a href="../html/cv/kishor.html"><img src="../images/Personal_photo .png" alt="kishor" class="perImage2"></a>
+              <a href="../html/cv/riddhi.html"><img src="../images/riddhi2.jpg" alt="riddhi" class="perImage3"></a>
+             <a href="../html/cv/ShristiRai.html"> <img src="../images/Shristi.jpeg" alt="shristi" class="perImage4"></a>
+             <a href="../html/cv/sachida.html">  <img src="../images/sachidaa.jpg" alt="sachida" class="perImage5"></a>
+               
+            </div>
+          </div>
+        </div>
+  </footer>
+      
+    </div>
+    <script type="text/javascript">
+     function time(){
+        var time = new Date();
+  var date = time.toDateString();
+  // Hours is stored in hours variable
+  var hours = time.getHours();
+  // minutes is stored in minutes variable
+  var minutes = time.getMinutes();
+  // seconds is stored in seconds variable
+  var seconds = time.getSeconds();
+  var times = document.getElementById("blog_date").innerHTML =  date + " / " + hours + " : " + minutes + " : " + seconds;
+      }
+      time();
+    </script>
+  </body>
+</html> 
